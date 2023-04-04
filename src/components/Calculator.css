@@ -1,0 +1,93 @@
+.calculator-container {
+    height: 100vh;
+}
+
+.calculator-head {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 600px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px auto;
+    /* border: 2px solid red; */
+}
+
+form label {
+    width: 600px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+form label input {
+    display: flex;
+    width: 300px;
+    /* border: 2px solid blue; */
+    margin-left: auto;
+    padding: 5px 10px;
+}
+
+form label select {
+    display: flex;
+    width: 300px;
+    /* border: 2px solid blue; */
+    margin-left: auto;
+    padding: 5px 10px;
+}
+
+form h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+form input[type = "submit"] {
+    border: none;
+    cursor: pointer;
+    background-color: #9bd4ef;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+form input[type = "submit"]:hover {
+    background-color: #34a8df;
+}
+
+.calculator-footer {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.calculator-footer p {
+    font-weight: bold;
+}
+
+.calculator-footer p span {
+    font-size: large;
+}
+
+.calculator-footer button {
+    border: none;
+    cursor: pointer;
+    background-color: #9bd4ef;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.calculator-footer button:hover {
+    background-color: #34a8df;
+}
